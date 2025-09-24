@@ -21,7 +21,7 @@ public enum HTTPMethodType {
     }
 }
 
-public class NetworkManager {
+public class NetworkManager:Sendable {
     public static let shared = NetworkManager()
     private init() {}
     
