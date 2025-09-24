@@ -54,7 +54,7 @@ NetworkManager.shared.request(
 }
 
 
-2. Image Loading & Caching
+### 2. Image Loading & Caching
 import AppUtilities
 import UIKit
 
