@@ -52,9 +52,10 @@ NetworkManager.shared.request(
         Logger.log("Error: \(error.localizedDescription)", level: .error)
     }
 }
-
+```
 
 ### 2. Image Loading & Caching
+```swift
 import AppUtilities
 import UIKit
 
@@ -64,13 +65,16 @@ ImageLoader.loadImage(
     url: "https://picsum.photos/200",
     placeholder: UIImage(systemName: "photo")
 )
+```
 
-3. Logger Utility
+### 3. Logger Utility
+ ```swift
 import AppUtilities
 
 Logger.log("App Started") // Default INFO level
 Logger.log("Something might be wrong", level: .warning)
 Logger.log("An error occurred", level: .error)
+```
 
 Example output:
 [ℹ️ INFO] ViewController.swift:12 - App Started
